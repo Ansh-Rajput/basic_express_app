@@ -1,0 +1,23 @@
+# Ignore artifacts:
+build
+coverage
+
+# Ignore all node_modules directories
+node_modules
+
+# Ignore log files
+*.log
+
+# Ignore env files
+.env
+.env.local
+.env.*.local
+
+# Ignore database files
+*.sqlite
+*.db
+
+# Ignore specific directories and files
+public/temp/
+dist/
+public
